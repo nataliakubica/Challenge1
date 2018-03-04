@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>SpaceX dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1” />
+    <link href="spacex.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+       <header class="titel">
+        <h1>SpaceX</h1>
+        </header>
+        <article class="voertuig">
+            <h2 class="voertuigtitel">Voertuig informatie</h2>
+            <h3>Brandstof</h3>
+            <canvas id="brandstof"></canvas>
+            <h3>Snelheid</h3>
+            <canvas id="snelheid"></canvas>
+             <h3>Acceleratie</h3>
+            <canvas id="acceleratie"></canvas>
+        </article>
+        <article class="omgeving">
+            <h2 class="voertuigtitel">Voertuig omgeving</h2>
+            <h3>Zwaartekracht</h3>
+            <canvas id="zwaartekracht"></canvas>
+            <h3>Afstand over tijd</h3>
+            <canvas id="afstand"></canvas>
+            <h3>Atmosfeer</h3>
+            <canvas id="atmosfeer"></canvas>
+        </article>
+        <article class="voorraden">
+            <h2>Voorraden</h2>
+            <h3>Eten</h3>
+            <canvas id="eten"></canvas>
+            <h3>Water</h3>
+            <canvas id="water"></canvas>
+        </article>
+        <script type="text/javascript" src="main.js"></script> 
+    </body>
