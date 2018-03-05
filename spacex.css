@@ -40,7 +40,6 @@ h3{
 article.omgeving{
     grid-area: omgeving;
     background-color: #1A1A1A;
-    
 }
 
 article.voorraden{
@@ -56,12 +55,12 @@ article.voorraden{
         "titel titel"
         "voertuig omgeving"
         "voorraden voorraden";
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    background-color: black;
-    font-family: Silom;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        background-color: black;
+        font-family: Silom;
     }
-    
+} 
 /*klein scherm*/
 @media only screen and (min-width: 900px) {
     body{
@@ -70,24 +69,23 @@ article.voorraden{
         grid-template-areas: 
         "titel titel titel"
         "voertuig omgeving voorraden";
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    background-color: black;
-    font-family: Silom;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        background-color: black;
+        font-family: Silom;
     }
-
+}
 @media only screen and (min-width: 1024px) {
-        body{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas: 
-            "titel titel titel"
-            "voertuig omgeving voorraden";
-            grid-column-gap: 20px;
-            grid-row-gap: 20px;
-            width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-            
-        }
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "titel titel titel"
+        "voertuig omgeving voorraden";
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
     }
+}
